@@ -31,5 +31,5 @@ The currency converter application is implemented in a single Java class, Curren
 
 The application uses the ExchangeRatesAPI.io API to retrieve real-time exchange rates. The API is accessed using the URLConnection and BufferedReader classes in Java.
 
-#Contributing
+## Contributing
 If you would like to contribute to this project, feel free to submit a pull request. All contributions are welcome!
