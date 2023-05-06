@@ -1,8 +1,8 @@
 # Internsavy_CurrencyConverter
-#Currency Converter
+## Currency Converter
 This is a simple currency converter application built using Java and the ExchangeRatesAPI.io API. The application allows you to convert between different currencies using real-time exchange rates.
 
-#Getting Started
+## Getting Started
 To run the currency converter application, you need to have Java installed on your machine. If you don't have Java installed, you can download it from the official website: https://www.java.com/en/download/.
 
 Once you have Java installed, follow these steps to run the application:
@@ -17,7 +17,7 @@ Copy code
 java CurrencyConverter
 The currency converter application should open in a new window.
 
-#How to Use
+## How to Use
 The currency converter interface consists of two dropdown menus and a text field. To convert between currencies, follow these steps:
 
 Select the currency you want to convert from in the first dropdown menu.
@@ -26,7 +26,7 @@ Enter the amount you want to convert in the text field.
 Click on the "Convert" button to see the converted amount.
 The exchange rates are updated every hour using the ExchangeRatesAPI.io API.
 
-#Code Structure
+## Code Structure
 The currency converter application is implemented in a single Java class, CurrencyConverter.java. The class extends the JFrame class to create a window for the application. The dropdown menus are implemented using the JComboBox class and the text field and button are implemented using the JTextField and JButton classes, respectively.
 
 The application uses the ExchangeRatesAPI.io API to retrieve real-time exchange rates. The API is accessed using the URLConnection and BufferedReader classes in Java.
